@@ -1,6 +1,6 @@
 # GreenHouse_care_App
 Design and fabrication of an IOT monitoring and controlling system for greenhouse application.
-Certain crops like vanilla orchids and saffron,crucial for biscuit, bread, and cake production,cannot be cultivated locally due to our harsh environment. Consequently, we heavily rely onimports for these ingredients, exacerbating our trade deficit and weakening our currency.This reliance on imports not only increases the cost of living but also leaves us vulnerable to fluctuations in global market prices. Additionally,importing essential ingredients for food production undermines our food security and economic independence.
+Certain crops like vanilla orchids and saffron,crucial for biscuit, bread, and cake production,cannot be cultivated locally due to our harsh Zambian environment. Consequently, we heavily rely onimports for these ingredients, exacerbating our trade deficit and weakening our currency.This reliance on imports not only increases the cost of living but also leaves us vulnerable to fluctuations in global market prices. Additionally,importing essential ingredients for food production undermines our food security and economic independence.
 
 Using IoT technology, the project aims to replicate the native tropical environmental
 conditions required for the cultivation of foreign crops like vanilla orchids and saffron.This will enable local production of these crops, reducing reliance on imports and enhancing agricultural sustainability.
