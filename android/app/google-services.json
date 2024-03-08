@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "600211021431",
+    "firebase_url": "https://sendingnreceiving-default-rtdb.firebaseio.com",
+    "project_id": "sendingnreceiving",
+    "storage_bucket": "sendingnreceiving.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600211021431:android:0f402266ae344e1bdff072",
+        "android_client_info": {
+          "package_name": "com.example.sendingandreceiving"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5q4Mk7iBVCOi4LUdVO-1jFWfWhEYtGiE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
