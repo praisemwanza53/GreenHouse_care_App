@@ -25,34 +25,22 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // Replace this with your desired icon for IoT green house
-            Icon(
-              Icons.home,
-              size: 100, // Adjust size as needed
-              color: Colors.green, // Adjust color as needed
-            ),
-            SizedBox(height: 20),
-            // // Optionally, you can display an image for additional graphics
-            // Image.asset(
-            //   'assets/images/green_house_care_app_logo.png',
-            //   fit: BoxFit.cover, // Adjust fit property as needed
-            // ),
-            SizedBox(height: 20),
-            Text(
-              "Welcome to GreenHouse Care App",
-              style: TextStyle(
-                color: Colors.green,
-                fontWeight: FontWeight.bold,
-                fontSize: 20,
+      body: SafeArea(
+        bottom: false,
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Padding(
+                padding: EdgeInsets.all(0.0),
+                child: Image(image: AssetImage(
+                    "assets/images/green_house_care_app_logo.png")),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
   }
+
 }
