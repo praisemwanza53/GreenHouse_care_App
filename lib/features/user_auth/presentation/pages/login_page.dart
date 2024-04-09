@@ -1,5 +1,5 @@
 
-import 'dart:js';
+//import 'dart:js';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -176,7 +176,7 @@ class _LoginPageState extends State<LoginPage> {
       if (kDebugMode) {
         showToast(message: "User is successfully signed in");
       }
-      Navigator.push(context as BuildContext,
+      Navigator.push(context,
           MaterialPageRoute(builder: (context) => const HomePage()));
     } else {
       if (kDebugMode) {
@@ -200,9 +200,9 @@ class _LoginPageState extends State<LoginPage> {
           accessToken: googleSignInAuthentication.accessToken,
         );
 
-        var _firebaseAuth = FirebaseAuth.instance; // Get FirebaseAuth instance
+        var firebaseAuth = FirebaseAuth.instance; // Get FirebaseAuth instance
 
-        await _firebaseAuth.signInWithCredential(credential);
+        await firebaseAuth.signInWithCredential(credential);
         Navigator.push(context,
             MaterialPageRoute(builder: (context) => const HomePage()));
       }
